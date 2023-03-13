@@ -1,0 +1,61 @@
+.note-app {
+    color: rgb(26, 25, 25);
+    margin: 0 15px 0 15px;
+}
+
+hr {
+    color: rgb(255, 255, 255);
+}
+
+.hover-show {
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.hover-show:hover {
+    opacity: 1;
+}
+
+
+.option-item:hover {
+    background-color: rgba(128, 128, 128, 0.364);
+}
+
+
+.title {
+    text-transform: uppercase;
+}
+
+.note-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (min-width: 340px) {
+    .new-note-link {
+        width: 320px
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .new-note-link {
+        width: 460px
+    }
+}
+
+
+@media screen and (min-width: 540px) {
+    .new-note-link {
+        width: 500px
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .new-note-link {
+        width: 600px
+    }
+}
